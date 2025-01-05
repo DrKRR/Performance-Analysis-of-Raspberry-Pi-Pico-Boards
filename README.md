@@ -6,7 +6,13 @@ An analysis of experimental results comparing the execution performance of Fibon
    <img src="https://github.com/user-attachments/assets/b57b37a3-8f42-4834-bdcd-c48f5c8e1652"width="300"height="450"></p>
 
 Motivational Website(s):[Ref](https://forums.raspberrypi.com/viewtopic.php?t=377831), and also number of YouTube presentations.
-## Analysis and Insights:
+Software developed in the present work, in the form of Python code is given in the repository. Experimental results obtained in the form of tables are given below. Videos corresponding to the experimental work are also given below.
+<p align="center"><img src="https://github.com/user-attachments/assets/f5986410-cb63-4328-8ffa-96ab8e03170f"width="350"height="650">
+    <img src="https://github.com/user-attachments/assets/f0e3bca3-2b6c-4b49-8c23-911ee7097721"width="350"height="650"></p>
 
+
+## Analysis and Insights:
+> ### Performance of Raspberry Pi Pico RP2040 and Raspberry Pi Pico W RP2040
+The Raspberry Pi Pico outperforms the Raspberry Pi Pico W consistently.
 
 
