@@ -13,6 +13,6 @@ Software developed in the present work, in the form of Python code is given in t
 
 ## Analysis and Insights:
 > ### Performance of Raspberry Pi Pico RP2040 and Raspberry Pi Pico W RP2040
-The Raspberry Pi Pico outperforms the Raspberry Pi Pico W consistently. At 250 MHz, Pico RP2040(ARM Cortex-M0) takes an execution time of 0.892816s, while the Pico W takes 1.137592s, making the Pico W approximately 1.27 times slower. 
+The Raspberry Pi Pico outperforms the Raspberry Pi Pico W consistently. At 250 MHz, Pico RP2040(ARM Cortex-M0) takes an execution time of 0.892816s, while the Pico W takes 1.137592s, making the Pico W approximately 1.27 times slower. This may be due to the overhead on the CPU due to the Wireless and BlueTooth interfaces.
 
 
