@@ -22,3 +22,9 @@ ARM Cortex M-33 features DSP Extensions for optimized mathematical calculations.
 Across all tested boards and modes, execution time scales proportionally with clock speed. Halving the clock frequency results in approximately twice the execution time ( factor/scale ~2). This linear relationship aligns with theoretical expectations for CPU-bound workloads. 
 
 
+![image](https://github.com/user-attachments/assets/bdcc0129-5e18-485e-b6f7-5dbe19744bd6)
+![image](https://github.com/user-attachments/assets/57721d82-874c-4da2-8028-48322f06db2c)
+
+
+
+
