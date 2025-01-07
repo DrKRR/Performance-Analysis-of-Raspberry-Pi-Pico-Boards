@@ -8,7 +8,7 @@ An analysis of experimental results comparing the execution performance of Fibon
 Motivational Website(s):[Ref](https://forums.raspberrypi.com/viewtopic.php?t=377831), and also number of YouTube presentations.
 Software developed in the present work, in the form of Python code is given in the repository. Experimental results obtained in the form of tables are given below. Videos corresponding to the experimental work are also given below.
 <p align="center"><img src="https://github.com/user-attachments/assets/f5986410-cb63-4328-8ffa-96ab8e03170f"width="350"height="650">
-    <img src="https://github.com/user-attachments/assets/f0e3bca3-2b6c-4b49-8c23-911ee7097721"width="350"height="650"></p>
+    <img src="https://github.com/user-attachments/assets/f0e3bca3-2b6c-4b49-8c23-911ee7097721"width="390"height="650"></p>
 
 
 ## Analysis and Insights:
@@ -26,16 +26,17 @@ Below is a graphical representation of the execution times for Fibonacci calcula
 <p align="center"><img src="https://github.com/user-attachments/assets/f14343ac-b874-49e8-8641-f5c9d626ebca"width="500"height="450">
 
 > ### Literature Support for Observations
-> #### ARM Cortex-M33 vs. Cortex-M0+:
-Cortex-M33 features advanced DSP instructions and a deeper pipeline, providing a significant performance advantage for tasks involving intensive calculations, such as Fibonacci sequences. [Ref](https://www.amazon.in/Definitive-Guide-Cortex%C2%AE-M0-Cortex-M0-Processors/dp/0128032774,https://www.amazon.in/Definitive-Guide-Cortex-M23-Cortex-M33-Processors/dp/0128207353)
+> ### ARM Cortex-M33 vs. Cortex-M0+:
+Cortex-M33 features advanced DSP instructions and a deeper pipeline, providing a significant performance advantage for tasks involving intensive calculations, such as Fibonacci sequences. [Ref.](https://www.amazon.in/Definitive-Guide-Cortex%C2%AE-M0-Cortex-M0-Processors/dp/0128032774,https://www.amazon.in/Definitive-Guide-Cortex-M23-Cortex-M33-Processors/dp/0128207353)
 
 > ### ARM Cortex-M0+ Core:
-ARM Cortex-M0+ cores, like those used in the RP2040, are designed for low-power and cost-sensitive applications, resulting in relatively lower computational performance compared to higher-tier ARM Cortex cores. (Arm Cortex-M0+ Technical Overview)
-RISC-V Hazard3 Core:
-RISC-V cores prioritize simplicity and extensibility, which can result in slower performance for computationally intensive tasks unless specifically optimized. (RISC-V Instruction Set Manual)
-Frequency Scaling:
+ARM Cortex-M0+ cores, like those used in the RP2040, are designed for low-power and cost-sensitive applications, resulting in relatively lower computational performance compared to higher-tier ARM Cortex cores. [Ref.](https://www.amazon.in/Definitive-Guide-Cortex%C2%AE-M0-Cortex-M0-Processors/dp/0128032774)
+
+> ### RISC-V Hazard3 Core:
+RISC-V cores prioritize simplicity and extensibility, which can result in slower performance for computationally intensive tasks unless specifically optimized. (Ref: The RISC-V Reader: An Open Architecture Atlas By David Patterson and Waterman)
+> ### Frequency Scaling:
 The linear relationship between clock frequency and execution time for CPU-bound tasks is a well-documented phenomenon in computer architecture. (Reference: "Computer Organization and Design: The Hardware/Software Interface" by Patterson & Hennessy)
-Conclusion
+> ### Conclusion
 The Raspberry Pi Pico 2 (RP2350) demonstrates a significant improvement in performance, particularly in ARM Cortex-M33 mode, making it the best performer for computationally intensive tasks.
 The Raspberry Pi Pico RP2040 outperforms the Pico W due to lower hardware overhead.
 RISC-V cores provide a promising alternative, but their performance lags behind ARM Cortex cores for workloads like Fibonacci calculations.
