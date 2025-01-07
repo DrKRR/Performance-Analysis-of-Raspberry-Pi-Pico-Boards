@@ -20,11 +20,28 @@ At 250MHz, Cortex M-33 executes in 0.561120s, while RISC-V Hazard3 architecture 
 ARM Cortex M-33 features DSP Extensions for optimized mathematical calculations.
 > ### Clock Speed Scaling
 Across all tested boards and modes, execution time scales proportionally with clock speed. Halving the clock frequency results in approximately twice the execution time ( factor/scale ~2). This linear relationship aligns with theoretical expectations for CPU-bound workloads. 
-
-
+> ### Graphical analysis
+Below is a graphical representation of the execution times for Fibonacci calculations across different Raspberry Pi Pico boards and operating frequencies:
 ![image](https://github.com/user-attachments/assets/bdcc0129-5e18-485e-b6f7-5dbe19744bd6)
-
 <p align="center"><img src="https://github.com/user-attachments/assets/f14343ac-b874-49e8-8641-f5c9d626ebca"width="500"height="450">
+
+> ### Literature Support for Observations
+> #### ARM Cortex-M33 vs. Cortex-M0+:
+Cortex-M33 features advanced DSP instructions and a deeper pipeline, providing a significant performance advantage for tasks involving intensive calculations, such as Fibonacci sequences. [Ref](https://www.amazon.in/Definitive-Guide-Cortex%C2%AE-M0-Cortex-M0-Processors/dp/0128032774,https://www.amazon.in/Definitive-Guide-Cortex-M23-Cortex-M33-Processors/dp/0128207353)
+
+> ### ARM Cortex-M0+ Core:
+ARM Cortex-M0+ cores, like those used in the RP2040, are designed for low-power and cost-sensitive applications, resulting in relatively lower computational performance compared to higher-tier ARM Cortex cores. (Arm Cortex-M0+ Technical Overview)
+RISC-V Hazard3 Core:
+RISC-V cores prioritize simplicity and extensibility, which can result in slower performance for computationally intensive tasks unless specifically optimized. (RISC-V Instruction Set Manual)
+Frequency Scaling:
+The linear relationship between clock frequency and execution time for CPU-bound tasks is a well-documented phenomenon in computer architecture. (Reference: "Computer Organization and Design: The Hardware/Software Interface" by Patterson & Hennessy)
+Conclusion
+The Raspberry Pi Pico 2 (RP2350) demonstrates a significant improvement in performance, particularly in ARM Cortex-M33 mode, making it the best performer for computationally intensive tasks.
+The Raspberry Pi Pico RP2040 outperforms the Pico W due to lower hardware overhead.
+RISC-V cores provide a promising alternative, but their performance lags behind ARM Cortex cores for workloads like Fibonacci calculations.
+This analysis provides a comprehensive understanding of the performance trade-offs among different Raspberry Pi Pico boards and modes.
+
+
 
 
 
