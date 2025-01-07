@@ -22,6 +22,7 @@ ARM Cortex M-33 features DSP Extensions for optimized mathematical calculations.
 Across all tested boards and modes, execution time scales proportionally with clock speed. Halving the clock frequency results in approximately twice the execution time ( factor/scale ~2). This linear relationship aligns with theoretical expectations for CPU-bound workloads. 
 > ### Graphical analysis
 Below is a graphical representation of the execution times for Fibonacci calculations across different Raspberry Pi Pico boards and operating frequencies:
+
 ![image](https://github.com/user-attachments/assets/bdcc0129-5e18-485e-b6f7-5dbe19744bd6)
 <p align="center"><img src="https://github.com/user-attachments/assets/f14343ac-b874-49e8-8641-f5c9d626ebca"width="500"height="450">
 
