@@ -41,7 +41,8 @@ The Raspberry Pi Pico 2 (RP2350) demonstrates a significant improvement in perfo
 The Raspberry Pi Pico RP2040 outperforms the Pico W due to lower hardware overhead.
 RISC-V cores provide a promising alternative, but their performance lags behind ARM Cortex cores for workloads like Fibonacci calculations.
 This analysis provides a comprehensive understanding of the performance trade-offs among different Raspberry Pi Pico boards and modes.
-
+> ## Work in Progress:
+Fibonacci computation using other modes like: Viper mode, Earthworm mode and Native mode are in progress
 
 
 
