@@ -13,6 +13,10 @@ Raspberry Pi Pico variant boards are connected to a 20X4 LCD module using I2C in
 ## Software:
 Code is developed in MicroPython and stored on the device, after dumping the appropriate bootloader as described in my earlier repository:
 
+## Sample Video:
+Following is the YouTube video of my sample experiment:
+[YouTube Link:](https://youtube.com/shorts/9l1WNEagYGg)
+
 ### Motivational Website(s):[Ref](https://forums.raspberrypi.com/viewtopic.php?t=377831), and also number of YouTube presentations.
 Software developed in the present work, in the form of Python code is given in the repository. Experimental results obtained in the form of tables are given below. Videos corresponding to the experimental work are also given below.
 <p align="center"><img src="https://github.com/user-attachments/assets/f5986410-cb63-4328-8ffa-96ab8e03170f"width="350"height="650">
@@ -51,7 +55,7 @@ RISC-V cores provide a promising alternative, but their performance lags behind 
 This analysis provides a comprehensive understanding of the performance trade-offs among different Raspberry Pi Pico boards and modes.
 > ## Work in Progress:
 Fibonacci computation using other modes like: Viper mode, Earthworm mode and Native mode are in progress
-https://youtube.com/shorts/9l1WNEagYGg
+
 
 
 
