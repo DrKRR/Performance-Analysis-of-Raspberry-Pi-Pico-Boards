@@ -7,14 +7,16 @@ An analysis of experimental results comparing the execution performance of Fibon
    
 ## Hardware:
 Raspberry Pi Pico variant boards are connected to a 20X4 LCD module using I2C interface. Connections are shown below:
+<p align="center"><img src="https://github.com/user-attachments/assets/b8957c8c-2acf-4d07-a782-30b9b3a582d2"width="300"height="450">
+  <img src="https://github.com/user-attachments/assets/d77f49fc-267f-46d2-8698-3802609fb6d0"width="300"height="450"></p>
+   
 ## Software:
 Code is developed in MicroPython and stored on the device, after dumping the appropriate bootloader as described in my earlier repository:
 
-Motivational Website(s):[Ref](https://forums.raspberrypi.com/viewtopic.php?t=377831), and also number of YouTube presentations.
+### Motivational Website(s):[Ref](https://forums.raspberrypi.com/viewtopic.php?t=377831), and also number of YouTube presentations.
 Software developed in the present work, in the form of Python code is given in the repository. Experimental results obtained in the form of tables are given below. Videos corresponding to the experimental work are also given below.
 <p align="center"><img src="https://github.com/user-attachments/assets/f5986410-cb63-4328-8ffa-96ab8e03170f"width="350"height="650">
     <img src="https://github.com/user-attachments/assets/f0e3bca3-2b6c-4b49-8c23-911ee7097721"width="390"height="650"></p>
-
 
 ## Analysis and Insights:
 > ### Performance of Raspberry Pi Pico RP2040 and Raspberry Pi Pico W RP2040
