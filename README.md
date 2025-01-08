@@ -4,6 +4,11 @@ This document provides Benchmark and Performance Analysis of Raspberry Pi Pico B
 An analysis of experimental results comparing the execution performance of Fibonacci number calculations, as a part of benchmarking across various Raspberry Pi Pico boards is carried out in this work. The resuts focus on ARM Cortex-M0, ARM Cortex-M33 and RISC-V cores, as implemented in the RP2040 (Raspberry Pi Pico and Raspberry Pi Pico W) and RP2350 (Raspberry Pi Pico 2) microcontrollers. Experiments are carried out using the recent MicroPython firmwares loaded in appropriate boards: [Ref](https://micropython.org/download) (screen shots given below). program is developed in MicroPython using Thonny editor. 
 <p align="center"><img src="https://github.com/user-attachments/assets/1750ef81-776e-45c7-aa66-76af4cd54c31"width="300"height="450">
    <img src="https://github.com/user-attachments/assets/b57b37a3-8f42-4834-bdcd-c48f5c8e1652"width="300"height="450"></p>
+   
+## Hardware:
+Raspberry Pi Pico variant boards are connected to a 20X4 LCD module using I2C interface. Connections are shown below:
+## Software:
+Code is developed in MicroPython and stored on the device, after dumping the appropriate bootloader as described in my earlier repository:
 
 Motivational Website(s):[Ref](https://forums.raspberrypi.com/viewtopic.php?t=377831), and also number of YouTube presentations.
 Software developed in the present work, in the form of Python code is given in the repository. Experimental results obtained in the form of tables are given below. Videos corresponding to the experimental work are also given below.
@@ -44,7 +49,7 @@ RISC-V cores provide a promising alternative, but their performance lags behind 
 This analysis provides a comprehensive understanding of the performance trade-offs among different Raspberry Pi Pico boards and modes.
 > ## Work in Progress:
 Fibonacci computation using other modes like: Viper mode, Earthworm mode and Native mode are in progress
-
+https://youtube.com/shorts/9l1WNEagYGg
 
 
 
